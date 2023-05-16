@@ -1,0 +1,14 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Rocky549/zapcom-configserver.git
+          username: Rocky549
+          password: Rocky2019@@##
+          default-label: master
+          refresh-rate: 120
